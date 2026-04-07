@@ -1,2 +1,2 @@
 This is my DevOps practice project
-Learning Git and AWS
+Learning Git and AW
