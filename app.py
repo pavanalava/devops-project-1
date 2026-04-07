@@ -1,1 +1,1 @@
-my devops project start
+print("Hello DevOps Project")
