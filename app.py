@@ -1,6 +1,17 @@
-print("Hello DevOps Project")
+from flask import Flask
 
-print("My DevOps Project - Version 2")
+app = Flask(__name__)
 
-print("Feature branch update")
-print("Feature test update")
+@app.route('/')
+def home():
+    return "Hello from DevOps Project 🚀"
+
+@app.route('/about')
+def about():
+    return "This is my DevOps learning project"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+
+    
+
